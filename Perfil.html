@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="icon" href="img/HA.png"></link>
+	<link rel="stylesheet" href="css/stylesprofile.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="left">
+        <img src="https://i.imgur.com/cMy8V5j.png"
+        alt="user" width="100">
+        <h4>Alex William</h4>
+         <p>UI Developer</p>
+    </div>
+    <div class="right">
+        <div class="info">
+            <h3>Information</h3>
+            <div class="info_data">
+                 <div class="data">
+                    <h4>Email</h4>
+                    <p>alex@gmail.com</p>
+                 </div>
+                 <div class="data">
+                   <h4>Phone</h4>
+                    <p>0001-213-998761</p>
+              </div>
+            </div>
+        </div>
+
+      <div class="projects">
+            <h3>Projects</h3>
+            <div class="projects_data">
+                 <div class="data">
+                    <h4>Recent</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                 </div>
+                 <div class="data">
+                   <h4>Most Viewed</h4>
+                    <p>dolor sit amet.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="social_media">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+      </div>
+    </div>
+</div>
+<div class="bubbles" style="margin-top: 100px;">
+	<div class="toggle"><ion-icon name="add" style=color:white;></ion-icon></div>
+	<li style="--i:0">
+		<a href="index.html"><ion-icon name="home" ></ion-icon></a>
+	</li>
+	<li style="--i:4">
+		<a href="Perfil.html"><ion-icon name="person" ></ion-icon></a>
+	</li>
+	<li style="--i:5">
+		<a href="About-us.html"><ion-icon name="people" ></ion-icon></a>
+	</li>
+	<li style="--i:6">
+		<a href="Body.html"><ion-icon name="body" ></ion-icon></a>
+	</li>
+	<li style="--i:7">
+		<a href="StartSleep.html"><ion-icon name="moon" ></ion-icon></a>
+	</li>
+</div>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script>
+	let toggle = document.querySelector('.toggle');
+	let bubbles = document.querySelector('.bubbles');
+	toggle.onclick = function(){
+		bubbles.classList.toggle('active')
+	}
+
+</script>
+</body>
+</html>
